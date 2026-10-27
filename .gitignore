@@ -1,0 +1,22 @@
+# Xcode / 编译产物
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# 个人数据与导出（应用数据本来就存在 ~/Library，不在仓库里；这里再防一手）
+*.store
+*.store-shm
+*.store-wal
+*.sqlite
+*.sqlite3
+*.csv
+AI/
+
+# Claude Code 本地设置
+.claude/settings.local.json
+.claude/worktrees/
